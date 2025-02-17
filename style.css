@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    width: 90%;
     gap: 20px;
     border-radius: 30px;
 }
@@ -26,13 +26,12 @@ body {
     justify-content: top;
     align-items: center;
     height: 80vh;
-    width: 28%;
-    /* border: 2px solid rgb(185, 165, 165); */
+    width: 30%;
+    border: 2px solid rgb(185, 165, 165);
     border-radius: 30px;
     padding: 5px;
-    box-shadow: rgb(185, 165, 165) 0px 2px 8px 8px;
-    /* box-shadow: 5px 5px rgb(137, 137, 211); */
-    gap: 8px;
+    box-shadow: rgb(33, 109, 66) 2px 2px 20px 5px;
+    gap: 4px;
 }
 
 h1 {
@@ -47,7 +46,7 @@ h1 {
     padding: 10PX;
 }
 
-#txt {
+#input-txt {
     padding: 20px;
     text-align: end;
     width: 100%;
@@ -61,11 +60,11 @@ h1 {
 .btn {
     display: flex;
     flex-direction: column;
-    height: 80%;
-    width: 98%;
+    height: 75%;
+    width: 95%;
     border: 2px solid rgb(87, 77, 77);
     border-radius: 30px;
-    /* margin: 20px ; */
+    margin: 20px ;
 }
 
 .btn1 {
@@ -73,7 +72,7 @@ h1 {
     align-items: center;
     width: 100%;
     height: 10vh;
-    gap: 10%;
+    gap: 8%;
     margin: 10px 0;
     /* border: 2px solid rgb(128, 0, 90); */
     font-size: 30px;
@@ -83,13 +82,15 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(3, 100, 13);
     text-align: center;
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 8vh;
     gap: 20px;
-    margin-left: 8px;
+    margin:0 8px;
     border: 2px solid rgb(98, 131, 98);
     border-radius: 50%;
+    box-shadow: rgb(33, 109, 66) 2px 2px 10px -2px;
     overflow: hidden;
 
 
