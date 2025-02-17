@@ -1,4 +1,22 @@
 // console.log("heejo ji")
+
+let body = document.body;
+let modeBtn = document.getElementById('mode');
+modeBtn.addEventListener('click', (e) => {
+    if (body.style.backgroundColor === "black") {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    } else {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    }
+});
+
+
+
+
+
+
 let displayText = document.getElementById('input-txt');
 // console.log(displayText);
 

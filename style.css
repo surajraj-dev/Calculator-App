@@ -34,9 +34,18 @@ body {
     gap: 4px;
 }
 
-h1 {
-    margin-top: 50px;
-    font-size: 40PX;
+h1 { 
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50PX;
+}
+span{  
+    position: fixed; 
+    top: 20px;
+    right: 20%; 
+    text-align: center;
+    font-size: 40px;
 }
 
 .disp {
@@ -44,6 +53,7 @@ h1 {
     width: 100%;
     height: 30%;
     padding: 10PX;
+    /* border: 2px solid red; */
 }
 
 #input-txt {
@@ -52,7 +62,7 @@ h1 {
     width: 100%;
     height: 100%;
     font-size: 30px;
-    border: none;
+    border: 4px solid rgb(87, 77, 77);
     border-radius: 20px;
 }
 
@@ -62,7 +72,7 @@ h1 {
     flex-direction: column;
     height: 75%;
     width: 95%;
-    border: 2px solid rgb(87, 77, 77);
+    border: 4px solid rgb(87, 77, 77);
     border-radius: 30px;
     margin: 20px ;
 }
